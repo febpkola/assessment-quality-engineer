@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "25d4ae3b-38b7-41fd-88f5-42a899bef888",
+		"name": "loans-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/loans",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "password",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"bankAccount\": {\n    \"accountNumber\": 1234567890,\n    \"bankName\": \"SCRUM_BANK\"\n  },\n  \"idNumber\": 9901025391084,\n  \"name\": \"Pontsho\",\n  \"surname\": \"Molewa\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/loans",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"loans"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
