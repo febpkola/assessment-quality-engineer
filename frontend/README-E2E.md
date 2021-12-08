@@ -1,10 +1,8 @@
-# Quality Engineer Assessment project
+# E2E Testing
 
 A Simple login page implemented in Node.js, requiring a user registration before being able to successfully login
 
 ## Testing Requirements
-
-### E2E Testing
 
 Please write E2E tests using whatever tool you would like to and showcase success and various failure scenarios for each.
 - User registration 
