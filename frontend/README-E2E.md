@@ -8,19 +8,19 @@ Please write E2E tests using whatever tool you would like to and showcase succes
 - User registration 
 - Login
 
-###Minimum requirement:
+### Minimum requirement:
 Demonstrate (through code etc) how you have managed to fulfill the E2E testing requirement. 
 
-###Desirable requirement:
+### Desirable requirement:
 Demonstrate automation using a test framework like [Selenium](https://www.selenium.dev/), [CodeceptJS](https://codecept.io/), [TestCafe](https://testcafe.io/) or other framework, to showcase your understanding of using frameworks to test UIs
 
-###Optional extra
+### Optional extra
 Review the two frameworks [CodeceptJS](https://codecept.io/) and [TestCafe](https://testcafe.io/) and recommend which one you would prefer to use for testing UIs and why.
 
 
-##Assessment deliverables
+## Assessment deliverables
 
-###Submission
+### Submission
 This must be included with the API testing submission
 
 ## Installations
