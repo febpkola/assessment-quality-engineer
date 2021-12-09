@@ -4,6 +4,10 @@ This is a two part assessment that hopes to showcase 2 of your skillsets:
 - [API testing](src/README-API.md) (backend)
 - [E2E testing](frontend/README-E2E.md) (frontend)
 
+Please download the [GitHub Spring Boot project](https://github.com/MomInv/assessment-quality-engineer) and follow the README.md instructions to run the application on your local machine.
+
+If you need an IDE, you can use [IntelliJ](https://www.jetbrains.com/idea/download) (The free Community Edition, or make use of the 30-day trial Ultimate edition)
+
 ## Assessment deliverables
 
 ### Time duration 

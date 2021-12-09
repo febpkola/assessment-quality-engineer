@@ -1,6 +1,6 @@
 # E2E Testing
 
-A Simple login page implemented in Node.js, requiring a user registration before being able to successfully login
+A Simple login page implemented in Node.js, requiring a user registration before being able to successfully log in.
 
 ## Testing Requirements
 
@@ -9,7 +9,8 @@ Please write E2E tests using whatever tool you would like to and showcase succes
 - Login
 
 ### Minimum requirement:
-Demonstrate (through code etc) how you have managed to fulfill the E2E testing requirement. 
+Demonstrate (through code, tool suite etc) how you have managed to fulfill the E2E testing requirement.
+Any Postman/SoapUI project needs to be included your delivery project with details of how you have done it.
 
 ### Desirable requirement:
 Demonstrate automation using a test framework like [Selenium](https://www.selenium.dev/), [CodeceptJS](https://codecept.io/), [TestCafe](https://testcafe.io/) or other framework, to showcase your understanding of using frameworks to test UIs

@@ -1,18 +1,13 @@
 # API Testing
 
-This is a base project that contains a simple REST API, exposed using a swagger doc, as well as a simple login UI. The purpose of this project is to provide a foundation for you to build tests around the API and UI using whatever tools you prefer.
+A simple REST API, exposed using a swagger doc.
 
 ## Testing Requirements
-
-Please download the [GitHub Spring Boot project](https://github.com/MomInv/assessment-quality-engineer) and follow the README.md instructions to run the application on your local machine.
-
-If you need an IDE, you can use [IntelliJ](https://www.jetbrains.com/idea/download) (The free Community Edition, or make use of the 30-day trial Ultimate edition)
 
 Write functional Test features to test against the REST API exposed by the application. The swagger doc can be found opening a browser to
 http://localhost:8080/swagger-ui.html
 
 There is a username-password to access it. These same credentials are required when making the REST request to the service.
-
 
 Please write tests using whatever tool you would like to and showcase success and various failure scenarios for each.
 
