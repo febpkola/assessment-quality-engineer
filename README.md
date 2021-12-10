@@ -1,8 +1,8 @@
 # Quality Engineer Assessment project
 
 This is a two part assessment that hopes to showcase 2 of your skillsets:
-- [API testing](src/README-API.md) (backend)
-- [E2E testing](frontend/README-E2E.md) (frontend)
+- [API testing](README-API.md) (backend)
+- [E2E testing](README-E2E.md) (frontend)
 
 Please download the [GitHub Spring Boot project](https://github.com/MomInv/assessment-quality-engineer) and follow the README.md instructions to run the application on your local machine.
 
