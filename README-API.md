@@ -2,6 +2,8 @@
 
 A simple REST API, exposed using a swagger doc.
 
+https://assessment-api-loan.herokuapp.com/swagger-ui.html
+
 ## Testing Requirements
 
 Write functional Test features to test against the REST API exposed by the application. The swagger doc can be found opening a browser to
@@ -31,71 +33,16 @@ Demonstrate automation using a test framework like REST Assured, Karate or other
 2. Write a **_load test_** suite for the Loan REST API - options can include using either [JMeter](https://jmeter.apache.org/) or [Gatling](https://gatling.io/), or one of your own choice Load Test frameworks/Tools
 
 # Getting up and running
+Open [Swagger UI](https://assessment-api-loan.herokuapp.com/swagger-ui.html) on a browser:
+http://localhost:8080/swagger-ui.html
 
-## Installations
-* 	[Spring Boot](https://spring.io/projects/spring-boot) - Framework to ease the bootstrapping and development of new Spring Applications
-* 	[JDK](https://www.oracle.com/za/java/technologies/javase/jdk11-archive-downloads.html) - Java™ Platform
-* 	[Gradle](https://gradle.org/) - An open-source build automation tool
-
-## Getting started
-
-* Make sure Java Development Kit (JDK) 8 or higher is installed on your local machine.
-```bash
-java -version
-```
+There is a username/password required to access the swagger doc
+```admin : password```
 
 ## Testing
 
-* [JUnit](https://junit.org/) - For Developer-side (unit) Testing, non-mandatory
+An example of the rest request is given in the **postman collection** found in the ```docs``` folder
 
-* An example of the rest request is given in the **postman collection** found in the ```docs``` folder
-
-## Running the application locally
-
-*   Start application: There are several ways to run a Spring Boot application on your local machine. 
-    1. Execute the `main` method in the `za.co.loans.Application` class from your IDE. 
-    2. Alternatively you can use the [Spring Boot Gradle plugin](https://docs.spring.io/spring-boot/docs/current/reference/html/build-tool-plugins.html#build-tool-plugins-gradle-plugin) as follows:
-  
-from the terminal, navigate to the root of the project 
-```
-assessment-quality-engineer$
-```
-
-build the project first using
-```
-./gradlew clean build
-```
-
-Command and output should lik as follows
-```
-assessment-quality-engineer$ ./gradlew clean build
-
-> Task :test
-
-za.co.loans.IdNumberTest > getAgeShouldReturnZero PASSED
-
-za.co.loans.IdNumberTest > getAgeShouldReturnValidAge PASSED
-
-BUILD SUCCESSFUL in 6s
-7 actionable tasks: 7 executed
-```
-
-Start up the app with the command
-```
-./gradlew bootRun
-```
-Successful start up should display the last few logs as follows
-```
-- Scanning for api listing references
-- Tomcat started on port(s): 8080 (http) with context path ''
-- Started Application in 5.074 seconds (JVM running for 5.668)
-```
-
-* Open [Swagger UI](http://localhost:8080/swagger-ui.html) on a browser: 
-  http://localhost:8080/swagger-ui.html
-  
-  There is a username/password required to access the swagger doc
-    ```admin : password```
 
 
 
