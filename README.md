@@ -11,7 +11,7 @@ If you need an IDE, you can use [IntelliJ](https://www.jetbrains.com/idea/downlo
 ## Assessment deliverables
 
 ### Time duration 
-5 days
+You have up to a maximum of 5 days of receiving the brief to deliver both parts in your solution
 
 ### Submission
 Please provide the link to your github or bitbucket project with clear details of how you built your test project.
