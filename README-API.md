@@ -6,8 +6,7 @@ https://assessment-api-loan.herokuapp.com/swagger-ui.html
 
 ## Testing Requirements
 
-Write functional Test features to test against the REST API exposed by the application. The swagger doc can be found opening a browser to
-http://localhost:8080/swagger-ui.html
+Write functional Test features to test against the REST API exposed by the application. The swagger doc can be found opening the [link](https://assessment-api-loan.herokuapp.com/swagger-ui.html).
 
 There is a username-password to access it. These same credentials are required when making the REST request to the service.
 
@@ -33,8 +32,7 @@ Demonstrate automation using a test framework like REST Assured, Karate or other
 2. Write a **_load test_** suite for the Loan REST API - options can include using either [JMeter](https://jmeter.apache.org/) or [Gatling](https://gatling.io/), or one of your own choice Load Test frameworks/Tools
 
 # Getting up and running
-Open [Swagger UI](https://assessment-api-loan.herokuapp.com/swagger-ui.html) on a browser:
-http://localhost:8080/swagger-ui.html
+Open [Swagger UI](https://assessment-api-loan.herokuapp.com/swagger-ui.html) in a browser
 
 There is a username/password required to access the swagger doc
 ```admin : password```
